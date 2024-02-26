@@ -1,0 +1,51 @@
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+div.static {
+    position: absolute;
+    border: 100px solid #73AD21;
+  }
+
+
+
+
+h2 {
+    font-size: 20px; 
+    color: #007BFF; 
+    text-shadow: 2px 2px 4px #000000; 
+}
+
+input, button {
+    padding: 10px; 
+    margin: 25px 0; 
+}
+
+input {
+    display: block; 
+    width: 90%; 
+    margin-left: auto; 
+    margin-right: auto;
+    border: 1px solid #ddd; 
+}
+
+button {
+    color: white; 
+    background-color: red; 
+    border: none; 
+    cursor: pointer; 
+    display: block; 
+    width: 95%; 
+    margin: 10px auto; 
+}
+
+button:hover {
+    background-color: #45a049; 
+    
